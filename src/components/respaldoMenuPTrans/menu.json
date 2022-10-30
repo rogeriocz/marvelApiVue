@@ -1,0 +1,359 @@
+[
+  {
+    "id_modulo": 1,
+    "nombre": "Filiación de Empleados",
+    "link": null,
+    "id_modulo_sup": 5,
+    "icon": "mdi-account-multiple-plus",
+    "level": 1,
+    "mostrar": true,
+    "children": [
+      {
+        "id_modulo": 6,
+        "nombre": "Inicio",
+        "link": "/inicio",
+        "id_modulo_sup": 1,
+        "icon": "mdi-view-dashboard",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 7,
+        "nombre": "Alta",
+        "link": "/empleados/alta",
+        "id_modulo_sup": 1,
+        "icon": "mdi-account-plus",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 8,
+        "nombre": "Consulta",
+        "link": "/empleados",
+        "id_modulo_sup": 1,
+        "icon": "mdi-account-search",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 9,
+        "nombre": "Folios asignación",
+        "link": "/folios/asignacion",
+        "id_modulo_sup": 1,
+        "icon": "mdi-card-account-details",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 10,
+        "nombre": "Constancia de asignación",
+        "link": "/constancia/asignacion",
+        "id_modulo_sup": 1,
+        "icon": "mdi-file-account",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 11,
+        "nombre": "Bitácora",
+        "link": "/bitacora/asignacion",
+        "id_modulo_sup": 1,
+        "icon": "mdi-clipboard-list",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id_modulo": 2,
+    "nombre": "Vigencia de Derechos",
+    "link": null,
+    "id_modulo_sup": 5,
+    "icon": "mdi-calendar-clock",
+    "level": 1,
+    "mostrar": true,
+    "children": [
+      {
+        "id_modulo": 12,
+        "nombre": "Consulta",
+        "link": "/mvd/empleados/search",
+        "id_modulo_sup": 2,
+        "icon": "mdi-account-search",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 13,
+        "nombre": "Reportes",
+        "link": "/mvd/reporting",
+        "id_modulo_sup": 2,
+        "icon": "mdi-file-chart",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 34,
+        "nombre": "Detalle Derechohabietes",
+        "link": "/mvd/empleados/consulta",
+        "id_modulo_sup": 2,
+        "icon": "mdi-account-search",
+        "level": 2,
+        "mostrar": false,
+        "children": []
+      },
+      {
+        "id_modulo": 38,
+        "nombre": "Editar Domicilio",
+        "link": "/mvd/domicilio/editar",
+        "id_modulo_sup": 2,
+        "icon": "",
+        "level": 2,
+        "mostrar": false,
+        "children": []
+      },
+      {
+        "id_modulo": 39,
+        "nombre": "Domicilio Nuevo",
+        "link": "/mvd/domicilio/nuevo",
+        "id_modulo_sup": 2,
+        "icon": null,
+        "level": 2,
+        "mostrar": false,
+        "children": []
+      },
+      {
+        "id_modulo": 40,
+        "nombre": "Derecho Habiente Alta",
+        "link": "/mvd/derechohabiente/alta",
+        "id_modulo_sup": 2,
+        "icon": null,
+        "level": 2,
+        "mostrar": false,
+        "children": []
+      },
+      {
+        "id_modulo": 41,
+        "nombre": "Derecho Habiente Editar",
+        "link": "/mvd/derechohabiente/editar",
+        "id_modulo_sup": 2,
+        "icon": null,
+        "level": 2,
+        "mostrar": false,
+        "children": []
+      },
+      {
+        "id_modulo": 42,
+        "nombre": "Credencialización",
+        "link": "/mvd/credencializacion",
+        "id_modulo_sup": 2,
+        "icon": null,
+        "level": 2,
+        "mostrar": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id_modulo": 3,
+    "nombre": "Credencialización",
+    "link": null,
+    "id_modulo_sup": 5,
+    "icon": "mdi-badge-account-horizontal-outline",
+    "level": 1,
+    "mostrar": true,
+    "children": []
+  },
+  {
+    "id_modulo": 4,
+    "nombre": "Estabilidad Laboral",
+    "link": null,
+    "id_modulo_sup": 5,
+    "icon": "mdi-account-search",
+    "level": 1,
+    "mostrar": true,
+    "children": [
+      {
+        "id_modulo": 14,
+        "nombre": "Seguimiento de Trámites",
+        "link": "/mel/seguimiento",
+        "id_modulo_sup": 4,
+        "icon": "mdi-folder-information-outline",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 15,
+        "nombre": "Carga de Información",
+        "link": "/mel/carga",
+        "id_modulo_sup": 4,
+        "icon": "mdi-database-arrow-up-outline",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 16,
+        "nombre": "Reportes",
+        "link": "/mel/reportes",
+        "id_modulo_sup": 4,
+        "icon": "mdi-file-chart-outline",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id_modulo": 17,
+    "nombre": "Comentarios",
+    "link": null,
+    "id_modulo_sup": 5,
+    "icon": "mdi-comment-text-multiple",
+    "level": 1,
+    "mostrar": true,
+    "children": [
+      {
+        "id_modulo": 18,
+        "nombre": "Operación Comentarios",
+        "link": "/mac/comentarios",
+        "id_modulo_sup": 17,
+        "icon": "mdi-comment-text-multiple-outline",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id_modulo": 19,
+    "nombre": "Administrar",
+    "link": null,
+    "id_modulo_sup": 5,
+    "icon": "mdi-shield-account",
+    "level": 1,
+    "mostrar": true,
+    "children": [
+      {
+        "id_modulo": 20,
+        "nombre": "Usuarios",
+        "link": "/users",
+        "id_modulo_sup": 19,
+        "icon": "mdi-account-multiple-plus",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 21,
+        "nombre": "Perfiles",
+        "link": "/profiles",
+        "id_modulo_sup": 19,
+        "icon": "mdi-account-details",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 23,
+        "nombre": "Modulos",
+        "link": "/modulos",
+        "id_modulo_sup": 19,
+        "icon": "mdi-view-module-outline",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 24,
+        "nombre": "Roles",
+        "link": "/roles",
+        "id_modulo_sup": 19,
+        "icon": "mdi-account-plus",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      },
+      {
+        "id_modulo": 37,
+        "nombre": "nivel tres",
+        "link": "/niveltres",
+        "id_modulo_sup": 19,
+        "icon": "mdi-account-details",
+        "level": 2,
+        "mostrar": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id_modulo": 27,
+    "nombre": "PRUEBA",
+    "link": "/TEST",
+    "id_modulo_sup": 5,
+    "icon": "mdi-account-plus",
+    "level": 1,
+    "mostrar": true,
+    "children": []
+  },
+  {
+    "id_modulo": 31,
+    "nombre": "GDISN",
+    "link": "/gdisn",
+    "id_modulo_sup": 5,
+    "icon": "mdi-account-multiple-plus",
+    "level": 1,
+    "mostrar": false,
+    "children": []
+  },
+  {
+    "id_modulo": 43,
+    "nombre": "demo gdsin",
+    "link": null,
+    "id_modulo_sup": 5,
+    "icon": "mdi-view-module-outline",
+    "level": 1,
+    "mostrar": false,
+    "children": []
+  },
+  {
+    "id_modulo": 44,
+    "nombre": "VueJs",
+    "link": null,
+    "id_modulo_sup": 5,
+    "icon": "mdi-view-module-outline",
+    "level": 1,
+    "mostrar": true,
+    "children": [
+      {
+        "id_modulo": 45,
+        "nombre": "child 01 de VueJs",
+        "link": "/js/demo",
+        "id_modulo_sup": 44,
+        "icon": "mdi-account-details",
+        "level": 2,
+        "mostrar": true,
+        "children": [
+          {
+            "id_modulo": 46,
+            "nombre": "child 02 de VueJs",
+            "link": "/js/demos",
+            "id_modulo_sup": 45,
+            "icon": "mdi-account-details",
+            "level": 3,
+            "mostrar": true,
+            "children": null
+          }
+        ]
+      }
+    ]
+  }
+]
